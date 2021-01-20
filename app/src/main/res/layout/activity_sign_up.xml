@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:textSize="25sp"
+        android:fontFamily="@font/amsterdam"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:text="@string/instagram"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:fontFamily="sans-serif-medium"
+        android:layout_gravity="center"
+        android:text="Sing up to see photos and videos\nfrom your friends"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login_facebook"
+        android:background="@drawable/edittext_bg"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:padding="8dp"
+        android:drawableLeft="@drawable/ic_if_square_facebook"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:drawablePadding="8dp"
+        android:layout_marginTop="20dp" />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="10dp">
+
+    <View
+        android:id="@+id/line1"
+        android:layout_width="140dp"
+        android:layout_height="1dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:background="#fff"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OR"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="-5dp"
+        android:layout_gravity="center"/>
+
+    <View
+        android:id="@+id/line2"
+        android:layout_width="140dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="5dp"
+        android:background="#fff"/>
+
+</LinearLayout>
+
+
+    <EditText
+        android:id="@+id/edit_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext_bg"
+        android:hint="Mobile Number or Email"
+        android:textColorHint="#555"
+        android:inputType="text"
+        android:textColor="#000"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:padding="12dp"/>
+
+    <EditText
+        android:id="@+id/edit_fillname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext_bg"
+        android:hint="Full Name"
+        android:textColorHint="#555"
+        android:inputType="text"
+        android:textColor="#000"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:padding="12dp"/>
+
+
+    <EditText
+        android:id="@+id/edit_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext_bg"
+        android:hint="@string/username_hint"
+        android:textColorHint="#555"
+        android:inputType="text"
+        android:textColor="#000"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:padding="12dp"/>
+
+
+    <EditText
+        android:id="@+id/edit_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext_bg"
+        android:hint="@string/password_hint"
+        android:textColorHint="#555"
+        android:textColor="#000"
+        android:drawableRight="@drawable/ic_eye"
+        android:drawablePadding="8dp"
+        android:inputType="textPassword"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:padding="12dp"/>
+
+    <Button
+        android:id="@+id/signup_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sing Up"
+        android:textColor="#fff"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="0dp"
+        android:onClick="onSignUpClicked"
+        android:background="@drawable/button_bg"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:text="By signing up, you agree to our Terms, Data, Policy and Cookies Policy"/>
+
+
+
+
+</LinearLayout>

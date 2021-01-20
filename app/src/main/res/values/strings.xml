@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">InstagramLoginExample</string>
+    <string name="instagram">Instagram</string>
+    <string name="username_hint">Username</string>
+    <string name="password_hint">Password</string>
+    <string name="forgot_password">Forgot your login details? Get help signing in.</string>
+    <string name="log_in">Log In</string>
+    <string name="login_facebook">Log in with Facebook</string>
+    <string name="account">Don\'t have an account? Sign Up.</string>
+</resources>
